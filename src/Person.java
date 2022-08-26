@@ -1,5 +1,4 @@
 public class Person {
-
     private String name;
     private String surname;
     private int age;
@@ -10,7 +9,6 @@ public class Person {
         this.surname = surname;
         this.age = age;
     }
-
     //TODO создайте геттеры и сеттеры
     public String getName() {
         return name;
@@ -49,7 +47,6 @@ public class Person {
         }
         return count;
     }
-
     //TODO создайте toString
     @Override
     public String toString() {
