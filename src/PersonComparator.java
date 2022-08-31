@@ -5,7 +5,8 @@ public class PersonComparator implements Comparator<Person> {
     public static int maxNumberWords;
 
     public PersonComparator(int maxNumberWords) {
-        this.maxNumberWords = maxNumberWords;
+       // this.maxNumberWords = maxNumberWords;
+        PersonComparator.maxNumberWords = maxNumberWords;
     }
 
     @Override
