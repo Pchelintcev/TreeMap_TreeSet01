@@ -26,7 +26,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Сортировка предикатом:");
-        Predicate<Person> predicate = Person -> Person.getAge() < 18;
+        Predicate<Person> predicate = person -> person.getAge() < 18; //параметры пишутся с маленькой буквы
         artPeople.removeIf(predicate);
         for (Person P : artPeople) {
             System.out.println(P);
