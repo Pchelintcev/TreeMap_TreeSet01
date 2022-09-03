@@ -25,5 +25,6 @@ public class Main {
         for (Person artPerson : artPeople) {
             System.out.println(artPerson);
         }
+        System.out.println("конец.");
     }
 }
