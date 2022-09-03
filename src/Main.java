@@ -22,8 +22,8 @@ public class Main {
             System.out.println(P);
         }
         System.out.println();
-
-        //TODO лямбда:
+        
+        System.out.println("Сортировка лямбдой:");
         Comparator <Person> artComp = (o1, o2) ->{
             if (o1.numberWords() <= 3 && o2.numberWords() <= 3) {
                 if (o1.numberWords() < o2.numberWords()) {
@@ -37,6 +37,7 @@ public class Main {
                 return Integer.compare(o2.getAge(), o1.getAge());
             }
         };
+        artPeople.sort(artComp);
         for (Person P : artPeople) {
             System.out.println(P);
         }
